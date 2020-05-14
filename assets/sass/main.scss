@@ -806,7 +806,7 @@
 		@include vendor('align-items', 'center');
 		@include vendor('justify-content', 'center');
 		position: relative;
-		height: 24em;
+		height: 18em;
 		background: url('../../images/banner.jpg') center center;
 		background-size: cover;
 		padding: 0;
@@ -1357,7 +1357,7 @@
 
 					&:before {
 						@include vendor('transition', 'all .15s ease-in-out');
-					
+
 						text-decoration: none;
 						content: '\f0c9';
 						font-size: 14px;
